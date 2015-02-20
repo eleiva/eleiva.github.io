@@ -121,14 +121,14 @@ h2.title {
   height: 100px;
   width: 100px;
   margin: 0 auto;
-  background-image: url("/images/base/rocket-grey.png");
+  background-image: url("/images/base/edu-zombie.png");
   background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 #header:hover .logo {
-  background-image: url("/images/base/rocket.png");
+  background-image: url("/images/base/edu.png");
 }
-#preload-01 { background: url("/images/base/rocket.png") no-repeat -9999px -9999px; }
+#preload-01 { background: url("/images/base/edu.png") no-repeat -9999px -9999px; }
 #header:hover .nav {
   display:block;
 }

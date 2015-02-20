@@ -4,6 +4,7 @@ poole:
 lsi: false
 markdown: redcarpet
 highlighter: pygments
+
 exclude:
 - Rakefile
 - README.markdown

@@ -19,7 +19,7 @@ El objetivo de esta nota es anotar las premisas basicas y fundamentales que todo
 Como veran todos seriamos felices si pudieramos contruir aplicacione que respeten estas ultimas premisas, pero no es una tarea sencilla ya que cada systema ( problema ) tiene un conjunto de caracteristicas diferentes que lo hace nuevo ( nuevo contexto ) y el uso de patrones de diseño nos brindaran algunas soluciones reales a problemas comunes que nos encontramos dia a dia en la construccion de sistemas medianos y grandes.
 
 
-### Paternitis 
+#### Paternitis 
 
 No siempre necesitamos hacer un diseño complejo ( la idea de diseñar es dar una solucion acertada a un problema en particular )
 Si tenemos dudas podemos basarnos en algunos conceptos de XP:
@@ -27,7 +27,7 @@ Si tenemos dudas podemos basarnos en algunos conceptos de XP:
 * Do the simplest thing that works
 * ou aren’t going to need it” (often abbreviated to YAGNI)
 
-### Crendo tus objetos
+#### Crendo tus objetos
 
 A medida que se hace complejo el sistema, es necearia una buena estrategia para la creacion de los objetos . Para ello tenemos los siguientes patrones:
 
@@ -40,7 +40,7 @@ Algunas recomendaciones:
 
 Evitar grandes if-switch y llevarlos a la creacion de los objetos.
 
-### Recordatorio para encontrar un patron
+#### Recordatorio para encontrar un patron
 
 * Because container objects share an interface with the objects that they contain,
 they are naturally suited to share a type family.
